@@ -87,7 +87,7 @@
                                 <label for="formCPF">CPF</label>
                             </div>
                             <div class="column-9 column input">
-                                <input type="text" name="formCPF" placeholder="666.666.666-66" id = "formCPF"><br/><br/>
+                                <input maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" type="text" name="formCPF" placeholder="666.666.666-66" id = "formCPF"><br/><br/>
                             </div>
                         </div>
                       <div class="row">
@@ -500,4 +500,5 @@
 <script src="js/patient.js"></script>
 <script src="js/desise.js"></script>
 <script src="js/diag.js"></script>
+<script src="js/format.js"></script>
 </html>
