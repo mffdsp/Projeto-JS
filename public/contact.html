@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Projeto Web - Mateus Fernando</title>
+<title>Projeto Web 0</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <link rel="icon" href="/img/like.png">
 
@@ -28,7 +28,7 @@
     <main>
         <div class = "h1">
             <div class = "logo">
-                <img onClick = "f()" src ="/img/mainICbg.png">
+                <img onClick = "backToBegin()" src ="/img/mainICbg.png">
             </div>
             <div class = "support">
                 <ul>
@@ -70,15 +70,60 @@
                    
             </div>
 
-        <div class= "espform" id = "containerINICIAL"  style="background-image:url('/img/HPC.png')" >
-                   
-        </div>
+    
 
+        <div class="form" id = "container7">
+            <form>
+                <fieldset class = "field" id = "fields">
+                        <legend class="text-center">Contact Us</legend>
+            
+                        <!-- Text input-->
+                        <div >
+                          <label for="name">Name</label>  
+                          <div class="col-md-5">
+                          <input type="text" placeholder="Enter your name" >
+                          </div>
+                        </div>
+                          
+                        <!-- Text input-->
+                        <div >  
+                            <label for="name">Phone</label>  
+                            <div class="col-md-5">
+                            <input type="text" placeholder="Enter your phone" >
+                            </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div >
+                            <label for="E-mail">E-mail</label>  
+                            <div class="col-md-5">
+                            <input type="text" placeholder="Enter your E-mail" >
+                            </div>
+                        </div>
+                        
+                        <!-- Textarea -->
+                        <div >
+                          <label>Message</label>
+                          <div class="col-md-5">                     
+                            <textarea  cols="30" rows="6"></textarea>
+                          </div>
+                        </div>
+                        
+                        <!-- Button -->
+                        <div class="text-center" >
+                          <br>
+                        <input id = "Send" value = "SEND" type = "button" onClick = "backToBegin()" ></input>
+                          
+                        </div>
+                        
+                </fieldset>
+            </form>
+        </div>
         <a href="#" class="float">
             <i class="fa fa-plus my-float" onClick="diagnose()">+</i>
-       </a>
-        
-</main>
+        </a>
+    
+        </main>
     
 </body>
 <script src="js/index.js"></script>
@@ -88,4 +133,7 @@
 <script src="js/desise.js"></script>
 <script src="js/diag.js"></script>
 <script src="js/format.js"></script>
+<script>
+
+</script>
 </html>

@@ -16,6 +16,7 @@ body{
     height: 100px;
 }
 
+
 .float{
 	position:fixed;
 	width:60px;
@@ -67,7 +68,6 @@ main{
     position: relative;
 
 }
-
 .entrada{
     height: 50%;
 }
@@ -153,7 +153,9 @@ b:hover{
     width: 100px;
 
 }
-
+#send{
+    margin: auto;
+}
 textarea {
     border-radius:4px;
     -moz-border-radius:4px;
@@ -298,10 +300,9 @@ input[type=button]{
     border-radius: 10px 10px 10px 10px;
     color: #fff;
     border:1px solid #ccc;
-    background-color:#f44336;
+    background-color:#363b48;
     text-align: center;    
     width: 150px;
-  
     margin-left: 5%;
     height: 60px;
     font-size: 90%;
@@ -322,7 +323,6 @@ input[type=button]{
 .column-3 {    
     width: 25%;    
 }
-
 .column-9 {    
     width: 75%;    
 }
@@ -387,7 +387,6 @@ input[type=button]{
     margin: 0;
     padding: 0;
   }
-
   /* Style the list items */
   ul2 li {
     cursor: pointer;
@@ -479,7 +478,10 @@ input[type=button]{
     transition: 0.3s;
     border-radius: 0;
   }
-  
+
+  .custService{
+    cursor: pointer;
+  }
   .addBtn:hover {
     background-color: #bbb;
   }

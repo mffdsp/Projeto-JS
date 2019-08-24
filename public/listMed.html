@@ -1,9 +1,10 @@
+
 <html>
 
 <head>
 <meta charset="utf-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Projeto Web - Mateus Fernando</title>
+<title>Projeto Web 0</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <link rel="icon" href="/img/like.png">
 
@@ -70,15 +71,51 @@
                    
             </div>
 
-        <div class= "espform" id = "containerINICIAL"  style="background-image:url('/img/HPC.png')" >
-                   
+        <div id = "mediCONT">
+                <div id="myDIVMED" class="header">
+                    <h2 >Lista de Medicamentos</h2> 
+                </div>
+          
+                <ul2 id="myULMED">
+                </ul2>
         </div>
-
-        <a href="#" class="float">
-            <i class="fa fa-plus my-float" onClick="diagnose()">+</i>
-       </a>
         
-</main>
+        <div class= "form" id = "container8">
+                <form action="PayslipServlet" method="get">
+                    <fieldset class = "field" id = "fields">
+                        <legend>Listar Medicamento</legend>
+                      <div class="row">
+                          <div class="column-3 column label">
+                              <label for="formNOME8">Nome</label>
+                          </div>
+                          <div class="column-9 column input">
+                              <input type="text" name="formNOME8" id="formNOME8" placeholder="Ex. Anti-histamínico" readonly><br/><br/>
+                          </div>
+                      </div>
+                      <div class="row">
+                            <div class="column-3 column label">
+                                <label for="formTRATA8">Trata</label>
+                            </div>
+                            <div class="column-9 column input">
+                                <input type="text" name="formTRATA8" id="formTRATA8" placeholder="Doenças ou Sintomas" readonly><br/><br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="column-3 column label">
+                                    <label for="formUSO8">Uso</label>
+                                </div>
+                                <div class="column-9 column input">
+                                    <input type="text" name="formUSO8" id="formUSO8" placeholder="Ex. Via oral" readonly><br/><br/>
+                                </div>
+                        </div>
+                    </fieldset>      
+                  </form>   
+            </div>
+            <a href="#" class="float">
+                <i class="fa fa-plus my-float" onClick="diagnose()">+</i>
+            </a>
+        
+        </main>
     
 </body>
 <script src="js/index.js"></script>
@@ -88,4 +125,9 @@
 <script src="js/desise.js"></script>
 <script src="js/diag.js"></script>
 <script src="js/format.js"></script>
+<script>
+document.getElementById("bt6").style.backgroundColor = "#f44336";
+document.getElementById("container8").style.display = "none";
+addPRIMITIVE();
+</script>
 </html>

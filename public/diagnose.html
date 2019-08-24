@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Projeto Web - Mateus Fernando</title>
+<title>Projeto Web 0</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <link rel="icon" href="/img/like.png">
 
@@ -70,14 +70,22 @@
                    
             </div>
 
-        <div class= "espform" id = "containerINICIAL"  style="background-image:url('/img/HPC.png')" >
-                   
-        </div>
-
-        <a href="#" class="float">
-            <i class="fa fa-plus my-float" onClick="diagnose()">+</i>
-       </a>
+            <div id = "container9">
+                <p class = "mapa" >Mapa de diagnósticos</p>
+                
+            <div class="active-purple-3 active-purple-4 mb-4">
+                <p class = "CPF">Insira o CPF do paciente que deseja diagnósticar:</p>
+                <input id = "diags" class="form-control" type="text" placeholder="CPF" aria-label="Search">
+                <button  onClick="searchToDiag()" >IR</button>
+                <div class = "CPF" id = "INFO"></div>
+            </div>
         
+            </div>
+            <a href="#" class="float">
+                <i class="fa fa-plus my-float" onClick="diagnose()">+</i>
+            </a>
+        
+
 </main>
     
 </body>
